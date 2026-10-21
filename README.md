@@ -44,7 +44,7 @@ classDiagram
     Student *-- Date
 
 ```
-##Address Class
+## Address Class
 ```
 Address()
     - init(string, street, string city, string, state, string zip) 
@@ -57,7 +57,7 @@ Address()
         - print city, state and zip 
 ```
 
-##Date Class
+## Date Class
 ``` 
 date() 
     - month = 0 
@@ -79,7 +79,7 @@ date()
         - print day and year (srd::cout << day << year) 
 ```
 
-##Student Class
+## Student Class
 ``` 
 
 Student() 
@@ -143,7 +143,7 @@ Student()
             - return credit hours 
 ```
 
-##Main 
+## Main 
 ```
 main() 
 int main() 
