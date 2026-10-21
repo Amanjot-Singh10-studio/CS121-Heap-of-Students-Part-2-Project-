@@ -145,4 +145,94 @@ Student()
 
 ##Main 
 ```
+main() 
+int main() 
+    - create vector of student pointers
+    - loadStudents(students) 
+    - choice = "" 
+    - while (choice != "0")
+        - choice = menu() 
+        - if choice == "1" 
+            - showStudentNames(students)
+        - else if (choice == "2") 
+            - printStudents(students)
+        - else if (choice == "3")
+            - FindStudent(students)
+        - else if (choice == "0") 
+            - print thank you 
+        - else
+            - print Invalid choice 
+    - delStudents(students) 
+    - return 0 
+```
+## loadStudents
+```
+loadStudents(students) 
+    - open students.csv file 
+    - if file is not open 
+        - print error 
+        - return 
+    - create string line 
+    - while read each line from students.csv file 
+        - if line is not empty 
+            - create new student on heap 
+            - studnet using line inilialize
+            - insert student pointer in vector 
+    - close file
+```
+## printStudents
+```
+printStudents(students) 
+    - for each student in vector 
+        - student pointer 
+        - printStudent() 
+        - print seperate line 
+```
+## showStudentNames
+```
+showStudentNames(students) 
+    - for each Student in vector 
+        - getLastFirst() 
+        - print last name and first name 
+```
+## findStudent
+```
+findStudent(students)
+    - create string lastName
+    - ask user for last name 
+    - read lastName 
+    - found = false 
+    - for each char in LastName
+        - chnage char to lowercase
+    - for each student in vector 
+        - get student pointer 
+        - getLastname() 
+        - for each char in name 
+            - char to lowercase change 
+        - if name Lastname if its contain
+            - printStudent() 
+            - print separate line 
+            - found = true 
+    - if found == false 
+        - print student not found 
+```
+## delStudents
+```
+delStudents(students) 
+    - for each Student in vector 
+        - delete student from heap
+    - clear students vector 
+```
+## menu
+```
+menu() 
+    - create string choice 
+    - print 0 to quit 
+    - print 1 to show student names 
+    - print 2 to show all student data
+    - print 3 to find a student 
+    - ask user to choose 0-3 
+    - read choice 
+    - return choice 
 
+        
