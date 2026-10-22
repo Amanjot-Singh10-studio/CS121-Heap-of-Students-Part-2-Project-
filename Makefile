@@ -24,3 +24,4 @@ clean:
 
 valgrind: studentData
 	valgrind ./studentData
+

@@ -26,5 +26,4 @@ class Student {
 		std::string getLastFirst();
 		int getCreditHours(); 
 };
-
 #endif

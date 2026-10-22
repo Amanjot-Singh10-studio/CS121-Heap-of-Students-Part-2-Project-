@@ -13,4 +13,5 @@ class Address {
 		void init(std::string s, std::string c, std::string st, std::string z); 
 		void printAddress(); 
 }; 
+
 #endif

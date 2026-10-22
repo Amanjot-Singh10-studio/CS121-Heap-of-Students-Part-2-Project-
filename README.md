@@ -233,6 +233,4 @@ menu()
     - print 3 to find a student 
     - ask user to choose 0-3 
     - read choice 
-    - return choice 
-
-        
+    - return choice       
