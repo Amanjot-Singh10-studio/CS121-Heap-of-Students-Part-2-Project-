@@ -120,4 +120,3 @@ std::string menu() {
 
     return choice;
 }
-

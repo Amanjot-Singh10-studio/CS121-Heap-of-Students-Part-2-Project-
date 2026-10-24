@@ -14,4 +14,3 @@ Address::Address() {
 		std::cout << street << std::endl;
 		std::cout << city << " " << state << ", " << zip << std::endl; 
 }
-

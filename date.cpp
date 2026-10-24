@@ -26,4 +26,3 @@ void Date::printDate() {
 	} 
 	std::cout << " " << day << ", " << year << std::endl; 
 } 
-

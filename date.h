@@ -14,4 +14,3 @@ class Date {
 		void printDate(); 
 	}; 
 #endif
-

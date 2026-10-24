@@ -64,4 +64,3 @@ std::string Student::getLastFirst() {
 int Student::getCreditHours() { 
 	return CreditHours; 
 }
-
